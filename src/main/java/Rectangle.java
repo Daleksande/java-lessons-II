@@ -29,10 +29,13 @@ public class Rectangle {
     }
 
     public double rectangleArea(double a, double b) {
-        double area;
-        area = a * b;
-
-        return area;
+        if(a > 0 & b > 0) {
+            double area;
+            area = a * b;
+            return area;
+        } else {
+            throw new NullPointerException("Некорректное значение одного из параметров");
+        }
     }
 
     public double rectanglePerimetr(double a, double b) {

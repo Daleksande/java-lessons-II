@@ -4,7 +4,7 @@ public class Main {
 
         Rectangle r1 = new Rectangle();
 
-        System.out.println( r1.rectangleArea(6,7) );
+        System.out.println( r1.rectangleArea(0.0,7.0) );
 
 
     }
