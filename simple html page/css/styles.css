@@ -1,0 +1,33 @@
+h1 {
+	color:blue;
+}
+
+.red {
+	color:red;
+}
+
+.green {
+	color:green;
+}
+
+ul,table {
+	font-size:18px;
+}
+
+li.active {
+	color:black;
+}
+
+table, td {
+	border:1px solid black;
+}
+
+.header {
+	background:grey !important;
+	font-weight:bold;
+	text-align:center;
+}
+
+tr:nth-child(odd) {
+	background:#a0a0a0;
+}
